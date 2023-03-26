@@ -1,0 +1,56 @@
+{
+  "name": "@playerberry/eslint-config",
+  "version": "1.0.0",
+  "description": "An ESLint config for JavaScript projects, brought to you by PlayerBerry",
+  "private": false,
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "backend.js",
+    "frontend.js"
+  ],
+  "scripts": {
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write . && eslint . --fix"
+  },
+  "engines": {
+    "node": ">=16.16.0"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "shared",
+    "lint",
+    "plugin",
+    "eslint-shared-config",
+    "eslint-config",
+    "playerberry"
+  ],
+  "homepage": "https://github.com/playerberry/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playerberry/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/playerberry/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.0.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "author": "Yankı Küçük <yankikucuk@playerberry.com> (https://playerberry.com)",
+  "contributors": [
+    "ex.codes <kendinikertenkelebek@me.com>"
+  ],
+  "license": "Apache-2.0"
+}
